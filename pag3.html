@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Numero_magico</title>
+  </head>
+  <body>
+    <div id="body">
+        <div id="body1">
+           
+            <div id="select">
+                <h2 id="consulta" class="h1" >En cuantos intentos quieres adivinar ?</h2>
+                <div  id="check">
+                  <select class="form-select"  id="intentos">
+                    <option selected>Elige</option>
+                    <option value="2">2 Intentos</option>
+                    <option value="4">4 Intentos</option>
+                    <option value="8">8 Intentos</option>
+                  </select>
+                </div>
+              </div>
+          </div>
+          <div id="contenido">
+            <h1 class="h1 titulo">Elige tu numero magico</h1>
+            <h2 class="h1 subtitulo" id="h2">Es solo 1 numero entre 1 y 100</h2>
+            <input id="numero" type="number">
+          </div>
+        <h1 id="intento"></h1>
+		<table id="lista">	
+        </table>
+        <input type="button" id="jugar" value="jugar" onclick="jugar()">  
+          
+        </div>
+
+     
+  <!-- directirio script -->
+   
+    <script src="script/script.js"></script>
+  
+  </body>
+</html>
